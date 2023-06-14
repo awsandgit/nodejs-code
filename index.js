@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hi. \n\n\nNode running! \n\nDeployed via AWS CodePipeline on ECS with EC2.\nNew release!'
+  const msg = 'Hi. \n\n\nNode running! \n'
   res.end(msg);
 });
 
