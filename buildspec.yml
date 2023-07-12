@@ -20,5 +20,6 @@ phases:
 
 artifacts:
   files:
-    - build/*
-  name: my-node-artifcats
+    - '**/*'
+  base-directory: 'build'
+  name: my-node-artifacts
