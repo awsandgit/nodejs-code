@@ -14,12 +14,11 @@ phases:
         commands:
             - echo "Build passed successfully."
             - npm run build
-            - zip -r source.zip build/
     post_build:
         commands:
             - echo "Post build successful"
 
 artifacts:
   files:
-    - source.zip
+    - build/*
   name: my-node-artifcats
